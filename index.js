@@ -156,21 +156,6 @@
     let average = total / students.length
 
     console.log(average.toFixed(1));
-
-    
-
-    students.filter(student => {
-        if(student.gender === 'male') {
-            male++
-        } else {
-            female++
-        }
-    })
-
-    console.log(
-        male, 
-        female
-    );
     
     students.filter(student =>{
         if(student === 'names') {
@@ -181,6 +166,6 @@
     })
     
     console.log(
-        ...male,
-        ...female 
+        male,
+        female 
     ) 
